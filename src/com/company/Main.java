@@ -43,7 +43,7 @@ public class Main {
 
                 boolean[] rightPlaces = getRightPlaces(userInput, randomWord, requiredSize);
 
-                paintCharacters(userInput, randomWord, rightPlaces)
+                paintCharacters(userInput, randomWord, rightPlaces);
             } else {
                 break;
             }
